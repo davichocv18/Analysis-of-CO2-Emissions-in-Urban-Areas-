@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <net-file value="centro_historico_quito.net.xml"/>
+        <route-files value="route{i}.rou.xml"/>
+        <additional-files value="VehicleType.xml"/>
+    </input>
+    
+    <time>
+        <begin value="0"/>
+        <end value="3800"/>
+    </time>
+    
+    <output>
+        <!-- Exportar las emisiones a un archivo específico -->
+        <emission-output value="emissions_{i}.xml"/>
+        <fcd-output value="sumoTrace_{i}.xml"/>
+    </output>
+</configuration>

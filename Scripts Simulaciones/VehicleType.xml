@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+     <!--  Motocicletas -->
+    <vType id="Motocicletas" 
+           accel="4.98"  
+           decel="4.5"
+           sigma="0.8" 
+           tau="0.57"
+           speedFactor="1.3"
+           speedDev="0.2"
+           minGap="3" 
+           maxSpeed="13.89" 
+           color="#FFB711"
+           emissionClass="HBEFA4/MC_4S_le250cc_Euro-4"
+           length="1.5"  
+           width="0.85"
+           height="1.35"
+           latAlignment="center" 
+           minGapLat="1.5"
+           carFollowModel="IDM"
+           guiShape="motorcycle" />
+    <!--  Kia Soluto LX AC 1.4 4P 4x2 TM -->
+    <vType id="Automovil_Kia_Soluto" 
+           accel="1.76"  
+           decel="4.5"
+           sigma="0.8" 
+           tau="0.57"
+           speedFactor="1.2"
+           speedDev="0.2"
+           length="4.3" 
+           minGap="3" 
+           maxSpeed="13.89" 
+           color="#0963B0"
+           emissionClass="HBEFA3/PC_G_EU4" 
+           width="1.7"
+           height="1.46"
+           latAlignment="center" 
+           minGapLat="1.5"
+           carFollowModel="IDM" />
+    <!-- Kia Sonet LX STD AC 1.5 5P 4X2 TM-->
+    <vType id="SUV_Kia_Sonet" 
+           accel="1.73"  
+           decel="4.5"
+           sigma="0.8" 
+           tau="0.57"
+           speedFactor="1.2"
+           speedDev="0.2"
+           length="3.9" 
+           width="1.8"
+           height="1.64"
+           minGap="3" 
+           maxSpeed="13.89" 
+           color="#D73232"
+           emissionClass="HBEFA3/LDV_G_EU4" 
+           latAlignment="center" 
+           minGapLat="1.5"
+           carFollowModel="IDM" />
+    <!-- Chevrolet D-Max CRDI HI RIDE AC 2.5 CD 4x2 TM Diesel -->
+    <vType id="Camioneta_Chevrolet_D-Max" 
+           accel="1.59"  
+           decel="4.5"
+           sigma="0.8" 
+           tau="0.57"
+           speedFactor="1.2"
+           speedDev="0.2"
+           length="5.295" 
+           width="1.86"
+           height="1.79"
+           minGap="3" 
+           maxSpeed="13.89" 
+           color="#5C743B"
+           emissionClass="HBEFA4/LCV_diesel_N1-III_Euro-4" 
+           latAlignment="center" 
+           minGapLat="1.5"
+           carFollowModel="IDM" />
+    <!-- Chevrolet Serie NLR -->
+    <vType id="Camion_Chevrolet_Serie_NLR" 
+           accel="0.66"  
+           decel="2"
+           sigma="0.8" 
+           tau="0.75"
+           speedFactor="1.1"
+           speedDev="0.2"
+           length="4.76" 
+           width="1.81"
+           height="2.18"
+           minGap="3" 
+           maxSpeed="11.11" 
+           color="#7F5C0E"
+           emissionClass="HBEFA3/HDV_D_EU4" 
+           latAlignment="center" 
+           minGapLat="1.5"
+           carFollowModel="IDM" />
+</additional>
+
+<!--
+SpeedDev: es desviación estándar de la velocidad del vehículo con respecto a la velocidad objetivo
+SpeedFactor: Es la velocidad limite a la que el conductor intentara circular, por ejemplo velocidad maxima 50km el speedFactor en 1.1 hara que el conductor intente ir a 55km
+sigma: Aleatoriedad en la conducción; valores más altos significan más variabilidad
+tau: Tiempo de reacción en segundos, cuánto tarda el vehículo en responder al tráfico delante de él.
+minGap (3): Espacio mínimo en metros que el vehículo mantiene con el de adelante.
+latAlignment: Alineación lateral del vehículo en el carril; "center" mantiene al vehículo en el centro del carril.
+impatience: Define qué tan propenso es el vehículo a intentar adelantar
+minGapLat: Distancia mínima lateral en metros para permitir adelantamientos.
+maxSpeedLat: Velocidad lateral máxima en m/s, afecta la capacidad de cambio de carril.
+carFollowModel: Modelo de seguimiento utilizado, que define el comportamiento de conducción.
+-->
