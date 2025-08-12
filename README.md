@@ -7,7 +7,7 @@ Este repositorio contiene todos los recursos utilizados para el proyecto de simu
 - **Scripts de simulación** 🛠️  
   Código fuente utilizado para generar y analizar simulaciones.
 
-- **Dataset utilizado** 📊  
+- **Dataset generado** 📊  
   Datos empleados para el entrenamiento y validación del modelo.
 
 - **Aplicación web en Streamlit** 🌐  
