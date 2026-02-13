@@ -1,0 +1,12 @@
+Copyright (c) 2026
+
+All rights reserved.
+
+This repository and all its contents are the intellectual property of the author.
+
+Permission is granted to view, clone, and run this repository for academic, and research
+evaluation purposes only.
+
+Commercial use, redistribution, modification, or creation of derivative works is strictly prohibited
+without prior written permission from the author.
+
