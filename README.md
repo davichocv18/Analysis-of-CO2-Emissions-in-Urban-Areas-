@@ -69,11 +69,14 @@ The final model is deployed using Streamlit, allowing users to:
 
 ## 🤝 Contact
 If you have questions, feedback, or collaboration proposals, feel free to reach out.
+
 David Casa
+
 ICT Researcher | Machine Learning | Urban Mobility & Emissions
+
 v.david1804@gmail.com
 
-##📜 License & Usage
+## 📜 License & Usage
 
 © All rights reserved.
 
